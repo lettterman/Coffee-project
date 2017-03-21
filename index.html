@@ -2,9 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Coffe</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
+<header>
+    <div>Зарядись с утреца</div>
+</header>
+<main>
+    <section class="setup">
+        <div class="setup-block">
+            <div class="block-header">Выберите напиток</div>
+            <div class="block-icon coffee-icon"></div>
+            <div class="block-price">300 ₽</div>
+        </div>
+        <div class="setup-block">
+            <div class="block-header">Выберите время</div>
+            <div class="block-icon">⏰</div>
+            <div class="block-date">
+                <select>
+                    <option value="today">Сегодня</option>
+                    <option value="tomorrow">Завтра</option>
+                </select>
+            </div>
+            <div class="block-time">
+                <select>
+                    <option value="10">10</option>
+                    <option value="11">Завтра</option>
+                </select>
+                <select>
+                    <option value="0">00</option>
+                    <option value="15">15</option>
+                    <option value="30">30</option>
+                    <option value="45">45</option>
+                </select>
+            </div>
+        </div>
+        <div class="setup-block">
+            <div class="block-header">Укажите адрес</div>
+            <div class="block-icon">🏠</div>
+            <div class="block-location">
+                <textarea cols="3" placeholder="Улица, дом, квартира (офис)"></textarea>
+            </div>
+        </div>
+        <div class="setup-block">
+            <div class="block-header">Подтвердите заказ</div>
+            <div class="block-button"><button>Заказать</button></div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="partners-section"></div>
+</footer>
 </body>
 </html>

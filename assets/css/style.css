@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700&subset=latin,cyrillic);
+
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+html,body{
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header div{
+    text-align: center;
+    font-size: 50px;
+}
+
+main{
+    height: 300px;
+    width: 100%;
+}
+
+footer{
+    height: auto;
+    width: 100%;
+}
+
+.setup{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.setup-block{
+    padding: 10%;
+    display: block;
+    width: 24%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.block-icon{
+    font-size: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.coffee-icon{
+    background-image: url(../img/coffee.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
