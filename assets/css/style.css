@@ -10,11 +10,12 @@
 html,body{
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    background-color: #BCAAA4;
 }
 
 header{
     width: 100%;
-    height: 300px;
+    height: 18%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,28 +26,31 @@ header div{
 }
 
 main{
-    height: 300px;
+    height: 60%;
     width: 100%;
 }
 
 footer{
     height: auto;
     width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 .setup{
-    height: 100%;
+    height: 60%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
 .setup-block{
-    padding: 10%;
+    padding: 3%;
     display: block;
-    width: 24%;
-    height: 100%;
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 33%;
+    height: 60%;
+    border: 2px solid rgba(0, 0, 0, 0.3);
 }
 
 .block-icon{
@@ -60,4 +64,24 @@ footer{
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.partners-section {
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    height: 40%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+}
+
+.parners-img {
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.img {
+    height: 180px;
+    padding: 3%;
 }
